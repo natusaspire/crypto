@@ -1,0 +1,25 @@
+.status {
+  &__text {
+    display: block;
+    font-size: 1.1rem;
+    color: #fff;
+
+    &--progress {
+      margin: 0 0 1rem;
+      padding: 1rem;
+      background: #2ba0d8;
+    }
+
+    &--success {
+      margin: 0 0 1rem;
+      padding: 1rem;
+      background: #03ae67;
+    }
+
+    &--error {
+      margin: 0 0 1rem;
+      padding: 1rem;
+      background: #ed5d5c;
+    }
+  }
+}

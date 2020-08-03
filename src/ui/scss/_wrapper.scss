@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+
+  &__header {
+    flex: 0 0 auto;
+  }
+
+  &__main {
+    flex: 1 0 auto;
+
+    &--grey {
+      background: #f3f3f3;
+    }
+  }
+
+  &__footer {
+    flex: 0 0 auto;
+  }
+}

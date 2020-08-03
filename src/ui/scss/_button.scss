@@ -1,0 +1,28 @@
+.button {
+  height: 2.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+
+  &--block {
+    width: 100%;
+  }
+
+  &--blue {
+    background: #3f51b5;
+    color: #fff;
+    border: 1px solid #3f51b5;
+  }
+
+  &--purple {
+    background: #673ab7;
+    color: #fff;
+    border: 1px solid #673ab7;
+  }
+
+  &--dark-grey {
+    background: #3c3c3ce0;
+    color: #fff;
+    border: 1px solid #3c3c3ce0;
+  }
+}

@@ -1,0 +1,9 @@
+.data-buttons {
+  display: flex;
+  justify-content: space-between;
+
+  &__button {
+    width: 48%;
+    margin: 0 0 1rem;
+  }
+}

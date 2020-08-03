@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__header">
+        <div class="header"></div>
+      </div>
+      <div class="wrapper__main wrapper__main--grey">
+        <div class="main">
+          <div class="main__container main__content">
+            <div class="form">
+              <div class="input-group">
+                <label for="password" class="input-group__label">Password</label>
+                <input type="password" name="" id="password" class="input-group__input" placeholder="Master password" />
+              </div>
+              <div class="input-group">
+                <label for="data" class="input-group__label">Data</label>
+                <input
+                  type="password"
+                  name=""
+                  id="data"
+                  class="input-group__input"
+                  placeholder="Data for encryption/decryption"
+                />
+              </div>
+              <div class="data-buttons">
+                <button id="encrypt" class="button button--blue data-buttons__button">Encrypt</button>
+                <button id="decrypt" class="button button--purple data-buttons__button">Decrypt</button>
+              </div>
+              <div class="status">
+                <span id="status" class="status__text"></span>
+              </div>
+              <div class="input-group">
+                <label for="result" class="input-group__label">Result</label>
+                <input
+                  type="password"
+                  name=""
+                  id="result"
+                  readonly
+                  class="input-group__input"
+                  placeholder="Encryption/decryption result"
+                />
+              </div>
+              <button id="copy" class="button button--dark-grey button--block">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper__footer">
+        <div class="footer"></div>
+      </div>
+    </div>
+  </body>
+</html>
